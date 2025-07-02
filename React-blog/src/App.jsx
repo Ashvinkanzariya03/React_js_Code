@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Multipleconditions from "./Multipleconditions";
 
 function App() {
   const [display, setDisplay] = useState(true);
@@ -6,6 +7,7 @@ function App() {
     <>
       <button onClick={() => setDisplay(!display)}>Toggle</button>
       {display ? <h1>Ashvin</h1> : <h2>Kanzariya</h2>}
+      <Multipleconditions/>
     </>
   );
 }
