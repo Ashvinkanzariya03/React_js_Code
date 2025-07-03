@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Multipleconditions from "./Multipleconditions";
 import PropsComponents from "./PropsComponents";
+import ArrayComponents from "./ArrayComponents";
 
 function App() {
   const [display, setDisplay] = useState(true);
@@ -22,6 +23,7 @@ function App() {
     age:"20",
     email:"name3@gamil.com"
   }
+  let City=['Ahemdabad','surat','pune']
   return (
     <>
       <button onClick={() => setDisplay(!display)}>Toggle</button>
@@ -31,6 +33,8 @@ function App() {
       <PropsComponents user={userobject1}/>
       <PropsComponents user={userobject2}/>
       <PropsComponents user={userobject3}/>
+      <h2>Array Components</h2>
+      <ArrayComponents name={City}/>
     </>
   );
 }
