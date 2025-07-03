@@ -3,6 +3,7 @@ import Multipleconditions from "./Multipleconditions";
 import PropsComponents from "./PropsComponents";
 import ArrayComponents from "./ArrayComponents";
 import ByDefaultProps from "./ByDefaultProps";
+import InputField from "../InputField";
 
 function App() {
   const [display, setDisplay] = useState(true);
@@ -41,7 +42,10 @@ function App() {
       <h2>*By Default Props*</h2>
       <ByDefaultProps name="ashvin Kanzariya"/>
       <ByDefaultProps />
-
+      <hr />
+      <h2>*Input Field*</h2>
+      <InputField/>
+      <hr />
     </>
   );
 }
