@@ -4,12 +4,15 @@ import PropsComponents from "./PropsComponents";
 
 function App() {
   const [display, setDisplay] = useState(true);
+  let username="PropsComponents"
+  let userage=20
+  let useremail="Ashvin@gamil.com"
   return (
     <>
       <button onClick={() => setDisplay(!display)}>Toggle</button>
       {display ? <h1>Ashvin</h1> : <h2>Kanzariya</h2>}
       <Multipleconditions/>
-      <PropsComponents name="PropsComponents" age={20} email="Ashvin@gamil.com"/>
+      <PropsComponents name={username} age={userage} email={useremail}/>
     </>
   );
 }
