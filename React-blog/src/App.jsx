@@ -2,6 +2,7 @@ import { useState } from "react";
 import Multipleconditions from "./Multipleconditions";
 import PropsComponents from "./PropsComponents";
 import ArrayComponents from "./ArrayComponents";
+import ByDefaultProps from "./ByDefaultProps";
 
 function App() {
   const [display, setDisplay] = useState(true);
@@ -33,8 +34,14 @@ function App() {
       <PropsComponents user={userobject1}/>
       <PropsComponents user={userobject2}/>
       <PropsComponents user={userobject3}/>
-      <h2>Array Components</h2>
+      <hr />
+      <h2>*Array Components*</h2>
       <ArrayComponents name={City}/>
+      <hr />
+      <h2>*By Default Props*</h2>
+      <ByDefaultProps name="ashvin Kanzariya"/>
+      <ByDefaultProps />
+
     </>
   );
 }
