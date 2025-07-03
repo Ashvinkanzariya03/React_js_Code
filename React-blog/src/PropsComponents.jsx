@@ -1,11 +1,12 @@
 import React from 'react'
 
-function PropsComponents({name,age,email}) {
+function PropsComponents({user}) {
   return (
     <div>
-      <h2>Name:{name}</h2>
-      <h2>Age:{age}</h2>
-      <h2>Email:{email}</h2>
+        <hr />
+      <h2>Name:{user.name}</h2>
+      <h2>Age:{user.age}</h2>
+      <h2>Email:{user.email}</h2>
     </div>
   )
 }
