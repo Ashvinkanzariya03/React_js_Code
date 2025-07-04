@@ -4,6 +4,7 @@ import PropsComponents from "./PropsComponents";
 import ArrayComponents from "./ArrayComponents";
 import ByDefaultProps from "./ByDefaultProps";
 import InputField from "../InputField";
+import ControlledComponets from "./ControlledComponets";
 
 function App() {
   const [display, setDisplay] = useState(true);
@@ -45,6 +46,9 @@ function App() {
       <hr />
       <h2>*Input Field*</h2>
       <InputField/>
+      <hr />
+      <h1>*Controlled Componets*</h1>
+      <ControlledComponets/>
       <hr />
     </>
   );
