@@ -6,6 +6,7 @@ import ByDefaultProps from "./ByDefaultProps";
 import InputField from "../InputField";
 import ControlledComponets from "./ControlledComponets";
 import Checkbox from "./Checkbox";
+import Map from "./Map";
 
 function App() {
   const [display, setDisplay] = useState(true);
@@ -52,6 +53,10 @@ function App() {
       <ControlledComponets/>
       <hr />
       <Checkbox/>
+      <hr />
+      <h2>Map with Loop</h2>
+      <Map/>
+      <hr />
     </>
   );
 }
