@@ -5,6 +5,7 @@ import ArrayComponents from "./ArrayComponents";
 import ByDefaultProps from "./ByDefaultProps";
 import InputField from "../InputField";
 import ControlledComponets from "./ControlledComponets";
+import Checkbox from "./Checkbox";
 
 function App() {
   const [display, setDisplay] = useState(true);
@@ -50,6 +51,7 @@ function App() {
       <h1>*Controlled Componets*</h1>
       <ControlledComponets/>
       <hr />
+      <Checkbox/>
     </>
   );
 }
