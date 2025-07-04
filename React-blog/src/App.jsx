@@ -1,6 +1,12 @@
 import { useState } from "react";
 import Multipleconditions from "./Multipleconditions";
 import PropsComponents from "./PropsComponents";
+import ArrayComponents from "./ArrayComponents";
+import ByDefaultProps from "./ByDefaultProps";
+import InputField from "../InputField";
+import ControlledComponets from "./ControlledComponets";
+import Checkbox from "./Checkbox";
+import Map from "./Map";
 
 function App() {
   const [display, setDisplay] = useState(true);
@@ -22,6 +28,7 @@ function App() {
     age:"20",
     email:"name3@gamil.com"
   }
+  let City=['Ahemdabad','surat','pune']
   return (
     <>
       <button onClick={() => setDisplay(!display)}>Toggle</button>
@@ -31,6 +38,25 @@ function App() {
       <PropsComponents user={userobject1}/>
       <PropsComponents user={userobject2}/>
       <PropsComponents user={userobject3}/>
+      <hr />
+      <h2>*Array Components*</h2>
+      <ArrayComponents name={City}/>
+      <hr />
+      <h2>*By Default Props*</h2>
+      <ByDefaultProps name="ashvin Kanzariya"/>
+      <ByDefaultProps />
+      <hr />
+      <h2>*Input Field*</h2>
+      <InputField/>
+      <hr />
+      <h1>*Controlled Componets*</h1>
+      <ControlledComponets/>
+      <hr />
+      <Checkbox/>
+      <hr />
+      <h2>Map with Loop</h2>
+      <Map/>
+      <hr />
     </>
   );
 }
