@@ -8,6 +8,7 @@ import ControlledComponets from "./ControlledComponets";
 import Checkbox from "./Checkbox";
 import Map from "./Map";
 import UseEffectHooks from "./UseEffectHooks";
+import UseEffectComponents from "./UseEffectComponents";
 
 function App() {
   const [display, setDisplay] = useState(true);
@@ -60,6 +61,8 @@ function App() {
       <hr />
       <h2>Use Effect Hooks</h2>
       <UseEffectHooks/>
+      <hr />
+      <UseEffectComponents/>
     </>
   );
 }
