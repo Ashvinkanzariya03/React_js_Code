@@ -7,6 +7,7 @@ import InputField from "../InputField";
 import ControlledComponets from "./ControlledComponets";
 import Checkbox from "./Checkbox";
 import Map from "./Map";
+import UseEffectHooks from "./UseEffectHooks";
 
 function App() {
   const [display, setDisplay] = useState(true);
@@ -57,6 +58,8 @@ function App() {
       <h2>Map with Loop</h2>
       <Map/>
       <hr />
+      <h2>Use Effect Hooks</h2>
+      <UseEffectHooks/>
     </>
   );
 }
