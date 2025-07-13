@@ -9,6 +9,7 @@ import Checkbox from "./Checkbox";
 import Map from "./Map";
 import UseEffectHooks from "./UseEffectHooks";
 import UseEffectComponents from "./UseEffectComponents";
+import UseRefHooks from "./UseRefHooks";
 
 function App() {
   const [display, setDisplay] = useState(true);
@@ -63,6 +64,8 @@ function App() {
       <UseEffectHooks/>
       <hr />
       <UseEffectComponents/>
+      <hr/>
+      <UseRefHooks/>
     </>
   );
 }
