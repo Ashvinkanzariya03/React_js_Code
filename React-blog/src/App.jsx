@@ -10,6 +10,7 @@ import Map from "./Map";
 import UseEffectHooks from "./UseEffectHooks";
 import UseEffectComponents from "./UseEffectComponents";
 import UseRefHooks from "./UseRefHooks";
+import ForwordRef from "./ForwordRef";
 
 function App() {
   const [display, setDisplay] = useState(true);
@@ -66,6 +67,8 @@ function App() {
       <UseEffectComponents/>
       <hr/>
       <UseRefHooks/>
+      <hr/>
+      <ForwordRef/>
     </>
   );
 }
