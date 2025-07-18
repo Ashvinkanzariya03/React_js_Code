@@ -11,6 +11,7 @@ import UseEffectHooks from "./UseEffectHooks";
 import UseEffectComponents from "./UseEffectComponents";
 import UseRefHooks from "./UseRefHooks";
 import ForwordRef from "./ForwordRef";
+import LiftingState from "./LiftingState";
 
 function App() {
   const [display, setDisplay] = useState(true);
@@ -69,6 +70,9 @@ function App() {
       <UseRefHooks/>
       <hr/>
       <ForwordRef/>
+      <hr/>
+      <h2>Lifting state up</h2>
+      <LiftingState/>
     </>
   );
 }
