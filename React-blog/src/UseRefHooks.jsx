@@ -9,9 +9,9 @@ function UseRefHooks() {
     focusInput.current.style.color = "red";
     focusInput.current.placeholder = "Ashvin Kanzariya";
   };
-  const h1Handler=()=>{
-    h1Ref.current.style.color="red"
-  }
+  const h1Handler = () => {
+    h1Ref.current.style.color = "red";
+  };
   return (
     <div>
       <h2>Use Ref Hooks Focus On input</h2>
