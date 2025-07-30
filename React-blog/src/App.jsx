@@ -12,6 +12,8 @@ import UseEffectComponents from "./UseEffectComponents";
 import UseRefHooks from "./UseRefHooks";
 import ForwordRef from "./ForwordRef";
 import LiftingState from "./LiftingState";
+import ObjectStateUpdate from "./ObjectStateUpdate";
+import UserApi from "./UserApi";
 
 function App() {
   const [display, setDisplay] = useState(true);
@@ -73,6 +75,10 @@ function App() {
       <hr/>
       <h2>Lifting state up</h2>
       <LiftingState/>
+      <hr />
+      <ObjectStateUpdate/>
+      <hr /><hr />
+      <UserApi/>
     </>
   );
 }
