@@ -18,7 +18,7 @@ function UserApi() {
     <div>
       {
         usersData && usersData.map((user)=>(
-          <h2>{user.firstName}</h2>
+          <h2 key={user.id}>{user.firstName}</h2>
         )) 
       }
     </div>

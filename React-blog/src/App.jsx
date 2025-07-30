@@ -14,6 +14,7 @@ import ForwordRef from "./ForwordRef";
 import LiftingState from "./LiftingState";
 import ObjectStateUpdate from "./ObjectStateUpdate";
 import UserApi from "./UserApi";
+import ApijsonServer from "./ApijsonServer";
 
 function App() {
   const [display, setDisplay] = useState(true);
@@ -79,6 +80,8 @@ function App() {
       <ObjectStateUpdate/>
       <hr /><hr />
       <UserApi/>
+      <hr />
+      <ApijsonServer/>
     </>
   );
 }
