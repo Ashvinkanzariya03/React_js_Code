@@ -1,0 +1,19 @@
+{
+    "users":[
+        {
+            "name":"ashvin",
+            "age":"22",
+            "email":"ashvin@test.com"
+        },
+        {
+            "name":"manoj",
+            "age":"23",
+            "email":"manoj@test.com"
+        },
+        {
+            "name":"mitul",
+            "age":"21",
+            "email":"mitul@test.com"
+        }
+    ]
+}
